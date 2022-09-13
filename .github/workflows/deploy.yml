@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "app-vulnerable2022" #Must be unique in Heroku
-          heroku_email: "roxsrossve@gmail.com"
+          heroku_api_key: ${{secrets.ad1983c8-35d7-4c90-ab72-d73628963b7b}}
+          heroku_app_name: "jmvellez" #Must be unique in Heroku
+          heroku_email: "sukundum@gmail.com"
           remote_branch: "master"
           usedocker: true
